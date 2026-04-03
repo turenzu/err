@@ -2,7 +2,7 @@ name: TheBerryHost 每日领取
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 11 * * *'   # 每天 UTC 11:00（北京时间）Cron 格式（分、时、日、月、周）
+    - cron: '00 16 * * *'   # 每天 UTC 16:00（北京时间 08:00）Cron 格式（分、时、日、月、周）
 jobs:
   claim:
     runs-on: ubuntu-latest
